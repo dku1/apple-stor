@@ -102,7 +102,6 @@ Route::group([
 
     Route::get('add-modifier', [ModifierController::class, 'addModifierProduct'])->name('add-modifier');
     Route::post('add-modifier/store', [ModifierController::class, 'addModifierProductStore'])->name('add-modifier.store');
-    Route::get('modifier/{product}/change_options', [AdminProductController::class, 'changeOptions'])->name('modifier.change.options');
 
     Route::get('currencies/rates/update', [AdminCurrencyController::class, 'ratesUpdate'])->name('admin.currencies.rates.update');
 

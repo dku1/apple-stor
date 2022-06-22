@@ -89,9 +89,6 @@
                         <a href="{{ route('products.index') }}">Товары</a>
                     </li>
                     <li class="nav-item d-none d-sm-inline-block btn btn-secondary">
-                        <a href="{{ route('modifier.change.options') }}">Выбор опций модификаторов</a>
-                    </li>
-                    <li class="nav-item d-none d-sm-inline-block btn btn-secondary">
                         <a href="{{ route('add-modifier') }}">Присвоение модификаторов</a>
                     </li>
                     <li class="nav-item d-none d-sm-inline-block btn btn-secondary">
